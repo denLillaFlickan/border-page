@@ -47,32 +47,38 @@
       </nav>
     </header>
 
-    <footer>
-      <div>
-        <h2>ELÉRHETŐSÉG, BEJELENTKEZÉS</h2>
-        
-        <i class="fa-solid fa-location-dot" style="color: #ce8040;"></i>
-        <p>Beauty For You Szépségszalon
-          <br>Hajdúszoboszló, Deák Ferenc u. 7.</p>
-        <i class="fa-solid fa-phone" style="color: #ce8040;"></i>
-        <p>06-30-629-9951</p>
-        <i class="fa-brands fa-facebook" style="color: #ce8040;"></i>
-        <p><a href="www.facebook.com/varadiildikozmetikus/">www.facebook.com/varadiildikozmetikus/</a></p>
-        <i class="fa-brands fa-instagram" style="color: #ce8040;"></i>
-        <p><a href="https://www.instagram.com/beauty_for.you__/">https://www.instagram.com/beauty_for.you__/</a></p>
-        <h2>NYITVATARTÁS</h2>
+    <main>
+      {% block main %}{% endblock %}
+    </main>
 
-        <p>
-          Bejelentkezés alapján ettől eltérő időben is lehetséges.<br>
-          Hétfőtől-Péntekig: 8:00-18:00<br>
-          Szombat: Előzetes bejelentkezés alapján<br>
-          Vasárnap: Zárva
-        </p>
-      </div>
-      <div>
-        <iframe src="https://goo.gl/maps/euy8VuG2FsyuepM46" frameborder="0"></iframe>
-      </div>
-      <div>
+    <footer>
+      <section class="footer-contact">
+        <div>
+          <h2>ELÉRHETŐSÉG, BEJELENTKEZÉS</h2>
+    
+          <i class="fa-solid fa-location-dot" style="color: #ce8040;"></i>
+          <p>Beauty For You Szépségszalon
+            <br>Hajdúszoboszló, Deák Ferenc u. 7.</p>
+          <i class="fa-solid fa-phone" style="color: #ce8040;"></i>
+          <p>06-30-629-9951</p>
+          <i class="fa-brands fa-facebook" style="color: #ce8040;"></i>
+          <p><a href="www.facebook.com/varadiildikozmetikus/">www.facebook.com/varadiildikozmetikus/</a></p>
+          <i class="fa-brands fa-instagram" style="color: #ce8040;"></i>
+          <p><a href="https://www.instagram.com/beauty_for.you__/">https://www.instagram.com/beauty_for.you__/</a></p>
+          <h2>NYITVATARTÁS</h2>
+
+          <p>
+            Bejelentkezés alapján ettől eltérő időben is lehetséges.<br>
+            Hétfőtől-Péntekig: 8:00-18:00<br>
+            Szombat: Előzetes bejelentkezés alapján<br>
+            Vasárnap: Zárva
+          </p>
+        </div>
+        <div>
+          <iframe src="https://goo.gl/maps/euy8VuG2FsyuepM46" frameborder="0"></iframe>
+        </div>
+      </section>
+      <div class="copyright">
         <p>&#169; 2018 - Minden jog fenntartva</p>
       </div>
     </footer>
