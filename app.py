@@ -16,7 +16,7 @@ def after_request(response):
     return response
 
 
-@app.kezdolap("/")
+@app.route("/")
 def kezdolap():
     """Betölti a kezdőlapot"""
     if request.method == "GET":
