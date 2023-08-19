@@ -1,0 +1,14 @@
+* {
+    border: 1px solid black;
+}
+
+.head-logo {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    width: 60%;
+}
