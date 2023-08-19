@@ -9,6 +9,10 @@ orange: #ce8040
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+    padding: 30px;
+}
+
 /* navigation bar */
 
 .nav-right {
