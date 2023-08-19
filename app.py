@@ -22,3 +22,9 @@ def kezdolap():
     """Betölti a kezdőlapot"""
     if request.method == "GET":
         return render_template("kezdolap.html")
+
+@app.route("/kapcsolat")
+def kapcsolat():
+    """Betölti a kapcsolat oldalt"""
+    if request.method == "GET":
+        return render_template("kapcsolat.html")
