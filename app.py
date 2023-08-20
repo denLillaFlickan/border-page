@@ -34,3 +34,9 @@ def bemutatkozas():
     """Betölti a bemutatkozás oldalt"""
     if request.method == "GET":
         return render_template("bemutatkozas.html")
+
+@app.route("/szolgaltatasok")
+def szolgaltatasok():
+    """Betölti a szolgáltatások oldalt"""
+    if request.method == "GET":
+        return render_template("szolgaltatasok.html")
