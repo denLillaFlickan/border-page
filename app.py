@@ -28,3 +28,9 @@ def kapcsolat():
     """Betölti a kapcsolat oldalt"""
     if request.method == "GET":
         return render_template("kapcsolat.html")
+    
+@app.route("/bemutatkozas")
+def bemutatkozas():
+    """Betölti a bemutatkozás oldalt"""
+    if request.method == "GET":
+        return render_template("bemutatkozas.html")

@@ -9,6 +9,24 @@ orange: #ce8040
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul li a, h3 a {
+    color: #000;
+    text-decoration: none;
+}
+ul li a:hover, h3 a:hover {
+    color: #c87833;
+    text-decoration: none;
+}
+
+.golden {
+    font-size: 60px;
+    font-weight: 100;
+    background: -webkit-linear-gradient(#fbd289, #c87833);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+}
+
 main {
     padding: 30px;
 }
@@ -39,6 +57,11 @@ main {
 }
 
 /* FOOTER */
+
+.footer-line {
+    border-bottom: 1px solid #444444;
+    margin-top: 40px;
+}
 
 .frame {
     width: 100%;
