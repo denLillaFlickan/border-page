@@ -13,18 +13,23 @@ ul li a, h3 a {
     color: #000;
     text-decoration: none;
 }
-ul li a:hover, h3 a:hover {
+ul li a:hover, h3 a:hover, h2 a:hover {
     color: #c87833;
     text-decoration: none;
 }
 
 .golden {
     font-size: 60px;
+    text-transform: uppercase;
     font-weight: 100;
     background: -webkit-linear-gradient(#fbd289, #c87833);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 30px;
+}
+.golden-small {
+    font-size: 35px;
 }
 
 

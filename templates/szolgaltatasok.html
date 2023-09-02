@@ -5,19 +5,19 @@
 {% endblock %}
 
 {% block main %}
-    <section class="cards">
-        <div class="card-row">
-            <div class="card">
+    <section class="brochures">
+        <div class="brochure-row">
+            <div class="brochure" id="arckezelések">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/kenyezteto.jpg" alt="">
-                <h2 class="golden small">Kényeztető arckezelések</h2>
+                <a href="#kényeztető"><h2 class="golden golden-small">Kényeztető arckezelések</h2></a>
                 <ul>
-                    <li><a href="#">Hatóanyagos arc és dekoltázs masszázs (katt.)</a></li>
-                    <li><a href="#">Expressz kezelés (katt.)</a></li>
+                    <li><a href="#hatóanyagosarc">Hatóanyagos arc és dekoltázs masszázs (katt.)</a></li>
+                    <li><a href="#expressz">Expressz kezelés (katt.)</a></li>                    
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/tisztito.jpg" alt="">
-                <h2 class="golden small">Tisztító arckezelések</h2>
+                <h2 class="golden golden-small">Tisztító arckezelések</h2>
                 <ul>
                     <li><a href="#">Tisztító kozmetikai (tini) kezelés tisztátalan, tág pórusú, pattanásokra hajlamos bőrnél (katt.)</a></li>
                     <li><a href="#">Tisztító kozmetikai (nagy) kezelés (katt.)</a></li>
@@ -25,9 +25,9 @@
                     <li><a href="#">Peel Re-new hámlasztó kezelés (katt.)</a></li>
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/exkluziv.jpg" alt="">
-                <h2 class="golden small">Exkluzív arckezelések</h2>
+                <h2 class="golden golden-small">Exkluzív arckezelések</h2>
                 <ul>
                     <li><a href="#">Peel Re-new hiperpigmentáció elleni & Re White hatás & bőr tónusjavító kezelés (katt.)</a></li>
                     <li><a href="#">Peel Re-new Lifting kezelés (katt.)</a></li>
@@ -41,19 +41,19 @@
                     <li><a href="#">Bakuchiol anti-age bőrápoló kezelés érzékeny, intoleráns bőrre (katt.)</a></li>
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/Arckezeles.jpg" alt="">
-                <h2 class="golden small">Gépi arckezelések</h2>
+                <h2 class="golden golden-small">Gépi arckezelések</h2>
                 <ul>
                     <li><a href="#"></a>Nu Skin ránctalanító arcvasalás (katt.)</li>
                     <li><a href="#">Ultrahang (katt.)</a></li>
                 </ul>
             </div>
         </div>
-        <div class="card-row">
-            <div class="card">
+        <div class="brochure-row">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/muszempilla.jpg" alt="">
-                <h2 class="golden small">Műszempillák</h2>
+                <h2 class="golden golden-small">Műszempillák</h2>
                 <ul>
                     <li><a href="#">1D /klasszikus alapszett/ (katt.)</a></li>
                     <li><a href="#">2D /duplázott pillasor/ (katt.)</a></li>
@@ -62,25 +62,25 @@
                     <li><a href="#">5-6D Volume (katt.)</a></li>
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/smink.jpg" alt="">
-                <h2 class="golden small">Sminkek</h2>
+                <h2 class="golden golden-small">Sminkek</h2>
                 <ul>
                     <li><a href="">Nappali smink (katt.)</a></li>
                     <li><a href="">Alkalmi smink (katt.)</a></li>
                     <li><a href="">Menyasszonyi smink (katt.)</a></li>
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/Gyanta2.jpg" alt="">
-                <h2 class="golden small">Gyantázás</h2>
+                <h2 class="golden golden-small">Gyantázás</h2>
                 <ul>
                     <li><a href="#">Bajusz, arc, hónalj, kar, has, fazon, láb (katt.)</a></li>
                 </ul>
             </div>
-            <div class="card">
+            <div class="brochure">
                 <img src="https://varadiildikozmetika.hu/Kepek/Services/oldokpilla.jpg" alt="">
-                <h2 class="golden small">Szemöldök, szempilla</h2>
+                <h2 class="golden golden-small">Szemöldök, szempilla</h2>
                 <ul>
                     <li><a href="#">Szempilla festés hagyományosan vagy hennával (katt.)</a></li>
                     <li><a href="#">Szemöldök festés hagyományosan (katt.)</a></li>
@@ -91,5 +91,25 @@
                 </ul>
             </div>
         </div>
+    </section>
+    <div class="footer-line"></div>
+    <section id="kényeztető">
+        <h2 id="hatóanyagosarc">Hatóanyagos arc- és dekoltázsmasszázs az élettel teli, ragyogó, hidratált bőrért</h2>
+        <h3>Kezelés időtartama: 30-50 perc</h3>
+        <p>
+            Az arcunkban 26 izom és néhány nyirokcsatorna található, amelyek stressz vagy alváshiány hatására megkeményednek és folyadékkal halmozódnak fel. Az eredmény halvány arcszín és duzzadt területek. A nyirokrendszer nem rendelkezik saját szivattyúval, ezért mozgás által lehet aktiválni. Az arcmasszázs serkenti a vérkeringést, valamint a segítségével a káros anyagok jobban és gyorsabban eltávolíthatóak. Ezenkívül stimulálja a bőrfunkciókat, valamint a bőr saját elasztin- és kollagéntermelését.
+            A masszázs hatására az arc jobban felszívja az ápoló termékeket.
+            Az arc- és dekoltázsmasszázs a nyak, az arc és a fej izmainak ellazításával általános feszültségoldó, közérzetjavító és nyugtató hatást fejt ki, illetve segít enyhíteni a fáradtság és a fejfájás tüneteit. Hozzájárul a bőr feszességének és rugalmasságának megőrzéséhez, illetve az öregedési tünetek megelőzéséhez és késleltetéséhez.
+            A kezelés során használt készítmények hidratálják és tápanyagokkal látják el a bőrt, valamint hozzájárulnak annak megújulásához, ezáltal a bőr üdévé és élettel telivé válik.
+        </p>
+        <h2 id="expressz">Expressz kezelés</h2>
+        <h3>Kezelés időtartama: 20-30 perc</h3>
+        <p>
+            Az expressz arckezelés gyors segítség a stressz és a fáradtság nyomainak eltűntetésére. Egészségesen üdévé, ragyogóvá teszi a bőrt, a a hatóanyagok bejuttatásával.
+            A kezelés első lépéseként bőrtípusnak megfelelő arclemosó készítménnyel tisztítjuk meg az arcbőrt, majd ezt egy rendkívül hatékony -bőrtípustól függő – professzionális peelinggel való gyengéd masszírozás követi.
+            A hidratáló tonizálás után a bőrtípusának megfelelő krémmel zárul az expresszkezelés.
+            Igény szerint a zárókrém előtt ultrahanggal juttathatunk be az arcbőr állapotának megfelelő hatóanyag ampullát, amitől még hidratáltabb, üdébb bőrt kapunk!
+            A kezelés célja, hogy a fáradt, stresszes bőr felfrissüljön és mindez komolyabb idő ráfordítás nélkül!  
+        </p>
     </section>
 {% endblock %}
